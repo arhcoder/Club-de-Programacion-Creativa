@@ -1,0 +1,10 @@
+
+# REPOSITORIO PRINCIPAL DEL CLUB DE PROGRAMACIÓN CREATIVA #
+# Archivos ignorados para el respaldo #
+
+
+# Que ignore todas las presentaciones de powerpoint;
+# Si se quiere colocar una presentación, debe ser en formato PDF:
+*.pptx
+*.pptm
+*.ppt
