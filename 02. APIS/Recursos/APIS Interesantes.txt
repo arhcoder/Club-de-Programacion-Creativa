@@ -1,0 +1,29 @@
+
+LISTA CON CIENTOS DE APIS GRATUITAS PARA USAR:
+	* https://github.com/public-apis/public-apis
+
+API PARA FOTOS DE GATOS:
+	* https://api.thecatapi.com/v1/images/search
+
+API PARA FOTOS DE PERROS:
+	* https://random.dog/woof.json
+
+API PARA FOTOS DE AJOLOTES:
+	* https://axoltlapi.herokuapp.com/
+
+API PARA FRASES ALEATORIAS:
+	* https://api.quotable.io/random
+
+API PARA DATOS INTERESANTES INÚTILES:
+	* https://uselessfacts.jsph.pl/
+
+API DE POKEMÓN:
+	* https://pokeapi.co/
+
+API DE MARVEL:
+(REQUIERE REGISTRARSE Y OBTENER KEYS):
+	* https://developer.marvel.com/
+
+API DE SPOTIFY:
+(REQUIERE REGISTRARSE Y OBTENER KEYS):
+	* https://developer.spotify.com/
