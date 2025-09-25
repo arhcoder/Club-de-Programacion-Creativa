@@ -13,7 +13,7 @@
 ## 🎓 About Me
 
 🎓 Currently studying **Computer Science** at **Universidad Autónoma de Aguascalientes** 🇲🇽.  
-💻 Passionate about creating **beautiful, functional code** and pushing computers to render amazing experiences.  
+💻 Passionate about creating **beautiful, functional code** and pushing computers to render amazing experiences.
 🚀 Always learning, always building, always growing.  
 
 <div align="center">
