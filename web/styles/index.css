@@ -1,156 +1,177 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
-body
-{
-    background: #181C20;
-}
-h1, h2
-{
-    color: #EEEEEE;
-}
-h3
-{
-    color: #287DCC;
-}
-a
-{
-    color: inherit;
-    text-decoration: none;
+/* ======= GLOBAL RESETS ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.content
-{
-    display: flex;
+body {
+  background: #181c20;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* ======= TITLES ======= */
+h1,
+h2 {
+  color: #eeeeee;
+  font-family: "Fjalla One", sans-serif;
+}
+
+h3 {
+  color: #287dcc;
+}
+
+/* ======= GENERAL LINKS ======= */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ======= STRUCTURE ======= */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ======= HEADER ======= */
+.title {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f1419;
+  box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
+}
+
+.logo {
+  height: 80%;
+}
+
+/* ======= CLUB LAWS ======= */
+.laws {
+  margin: 50px;
+  padding: 50px;
+  max-width: 80%;
+  background: #0f1419;
+  border-radius: 16px;
+  box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
+}
+
+.rules {
+  font-family: "Consolas", monospace;
+  font-size: 22px;
+  color: #eeeeee;
+  display: block;
+  margin: 8px 0;
+}
+
+.blue-text {
+  color: #287dcc;
+}
+.purple-text {
+  color: #c724f4;
+}
+.celeste-text {
+  color: #20d4e4;
+}
+.red-text {
+  color: #d82c3c;
+}
+.orange-text {
+  color: #e07e0c;
+}
+.green-text {
+  color: #68dc0c;
+}
+
+/* ======= MEMBER CARDS ======= */
+.member {
+  width: 60%;
+  padding: 20px;
+  background: #0f1419;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4vh;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.member:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 30px -10px rgba(40, 125, 204, 0.6);
+}
+
+.photo {
+  flex-shrink: 0;
+}
+
+.photo > img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+/* ======= MEMBER INFO ======= */
+.info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.membername h2 {
+  margin: 0;
+}
+
+.memberusername h3 {
+  margin: 4px 0;
+}
+
+.memberdesc {
+  font-size: 14px;
+  color: #bbbbbb;
+  margin-top: 6px;
+  line-height: 1.4;
+  max-width: 420px;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.git img {
+  height: 30px;
+  filter: invert(80%);
+  transition: transform 0.3s;
+}
+
+.git img:hover {
+  transform: scale(1.1);
+}
+
+/* ======= RESPONSIVE ======= */
+@media (max-width: 800px) {
+  .member {
     flex-direction: column;
-    align-items: center;
-}
+    width: 90%;
+    align-items: flex-start;
+  }
 
-.title
-{
-    width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background: #0F1419;
+  .info {
+    margin-left: 0;
+    margin-top: 12px;
+  }
 
-    box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -webkit-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -moz-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-}
-.logo
-{
-    padding-top: 4%;
-    height: 80%;
-}
-
-.laws
-{
-    /* width: 50%; */
-    margin: 50px;
-    padding: 50px;
-    max-width: 80%;
-    background: #0F1419;
-
-    border-radius: 16px;
-    box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -webkit-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -moz-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-}
-.buttons
-{
-    width: 100%;
-    height: 20px;
-    margin-top: -20px;
-    margin-right: -40px;
-    margin-bottom: 30px;
-}
-.rules
-{
-    font-family:  "Consolas";
-    font-size: 24px;
-
-    color: #EEEEEE;
-    height: 40px;
-    display: inline-block;
-}
-.text
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.member
-{
-    width: 40%;
-    padding: 20px;
-    max-width: 80%;
-    background: #0F1419;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    margin-bottom: 4vh;
-
-    border-radius: 16px;
-    box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -webkit-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-    -moz-box-shadow: 1px 0px 26px -1px rgba(50, 50, 50, 0.98);
-}
-.photo
-{
-    display: block;
-    height: 100px;   
-}
-.photo > img
-{
-    display: block;
-    height: 100px;
-    border-radius: 16px;
-}
-.info
-{
-    margin-left: 20px;
-}
-.membername
-{
-    width: 100%;
-    padding: 2%;
-    padding-top: 5%;
-    font-family: "Fjalla One";
-}
-.memberusername
-{
-    width: 100%;
-    padding: 2%;
-    padding-top: 10%;
-    font-family: "IBM Plex Sans";
-}
-
-.blue-text
-{
-    color: #287DCC;
-}
-.purple-text
-{
-    color: #C724F4;
-}
-.celeste-text
-{
-    color: #20D4E4;
-}
-.red-text
-{
-    color: #D82C3C;
-}
-.orange-text
-{
-    color: #E07E0C;
-}
-.green-text
-{
-    color: #68DC0C;
+  .memberdesc {
+    max-width: 100%;
+  }
 }
