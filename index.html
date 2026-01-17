@@ -1,103 +1,382 @@
-<!DOCTYPE html>
+ñp<!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
-    <link rel="Stylesheet" href="web/styles/index.css"/>
-    <title>Club de Programación Creativa</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Fjalla+One"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans"
+  />
+  <link rel="stylesheet" href="web/styles/index.css" />
+  <title>Club de Programación Creativa 2025</title>
 </head>
+
 <body>
+  <!-- HEADER -->
+  <header>
+    <div class="title">
+      <a
+        target="_blank"
+        href="https://github.com/arhcoder/Club-de-Programacion-Creativa"
+      >
+        <img
+          class="logo"
+          src="web/images/cpc.png"
+          alt="CLUB DE PROGRAMACIÓN CREATIVA"
+        />
+      </a>
+    </div>
+  </header>
 
-    <!-- HEADER -->
-    <header>
-        <div class="title"><a target="_blank" href="https://github.com/arhcoder/Club-de-Programacion-Creativa"><img class="logo" src="web/images/cpc.png" alt="CLUB DE PROGRAMACIÓN CREATIVA"></a></div>
-    </header>
-
-    
-    <!-- CONTENT COLUMN -->
-    <div class="content">
-
-        <!-- LAWS -->
-        <div class="laws">
-            <div class="buttons"></div>
-            <div class="text">
-                <span class="rules"><span class="celeste-text"> 1. </span><span class="red-text"> Si </span>se puede <strong><span class="purple-text">automatizar</span></strong>, <span class="orange-text">lo</span><strong> <span class="green-text">automatizamos</span></strong>;</span>;
-                <span class="rules"><span class="celeste-text"> 2. </span><span class="red-text"> Si </span>se puede <strong><span class="purple-text">aprender</span></strong>, <span class="orange-text">lo</span><strong> <span class="green-text">aprendemos</span></strong>;</span>;
-                <span class="rules"><span class="celeste-text"> 3. </span><span class="red-text"> Si </span>se puede <strong><span class="purple-text">enseñar</span></strong>, <span class="orange-text">lo</span><strong> <span class="green-text">enseñamos</span></strong>;</span>;
-            </div>
-        </div>
-
-
-        <!-- MEMBERS ------------------------------------------------------------------------------------------------------------ -->
-
-        <div class="member" onclick="window.open('https://github.com/arhcoder', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/arhcoder.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/arhcoder">Alejandro Ramos</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/arhcoder">@arhcoder</a></h3></div>
-            </div>
-        </div>
-
-        <div class="member" onclick="window.open('https://github.com/ZachenLeth', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/ZachenLeth.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/ZachenLeth">ZachenLeth</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/ZachenLeth">@zachenleth</a></h3></div>
-            </div>
-        </div>
-        <div class="member" onclick="window.open('https://github.com/brendaramirez2022', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/brendaramirez2022.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/brendaramirez2022">Brenda Ramirez</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/brendaramirez2022">@brendaramirez2022</a></h3></div>
-            </div>
-        </div>
-
-        <div class="member" onclick="window.open('https://github.com/DiegoGHx', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/DiegoGHx.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/DiegoGHx">Diego García</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/DiegoGHx">@DiegoGHx</a></h3></div>
-            </div>
-        </div>
-
-        <div class="member" onclick="window.open('https://github.com/Miguel281298', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/Miguel281298.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/Miguel281298">Miguel Vázquez</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/Miguel281298">@Miguel281298</a></h3></div>
-            </div>
-        </div>
-
-        <div class="member" onclick="window.open('https://github.com/baam160804', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/baam160804.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/baam160804">Fernanda Álvarez</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/baam160804">@baam160804</a></h3></div>
-            </div>
-        </div>
-
-        <div class="member" onclick="window.open('https://github.com/ensecode', 'mywindow');" style="cursor: pointer;">
-            <div class="photo"><img src="https://github.com/ensecode.png" alt="" class="avatar"></div>
-            <div class="info">
-                <div class="membername"><h2><a href="https://github.com/ensecode">Enscode</a></h2></div>
-                <div class="memberusername"><h3><a href="https://github.com/ensecode">@ensecode</a></h3></div>
-            </div>
-        </div>
-
-        <!-- MEMBERS ------------------------------------------------------------------------------------------------------------ -->
-
-
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <!-- LAWS -->
+    <div class="laws">
+      <h1 class="rules">Club de Programación Creativa 2025</h1>
+      <span class="rules">
+        <span class="celeste-text">1.</span>
+        <span class="red-text">Si</span> se puede
+        <strong><span class="purple-text">automatizar</span></strong>,
+        <span class="orange-text">lo</span>
+        <strong><span class="green-text">automatizamos</span></strong>;
+      </span>
+      <span class="rules">
+        <span class="celeste-text">2.</span>
+        <span class="red-text">Si</span> se puede
+        <strong><span class="purple-text">aprender</span></strong>,
+        <span class="orange-text">lo</span>
+        <strong><span class="green-text">aprendemos</span></strong>;
+      </span>
+      <span class="rules">
+        <span class="celeste-text">3.</span>
+        <span class="red-text">Si</span> se puede
+        <strong><span class="purple-text">enseñar</span></strong>,
+        <span class="orange-text">lo</span>
+        <strong><span class="green-text">enseñamos</span></strong>;
+      </span>
     </div>
 
+    <!-- ===================================================== -->
+    <!-- ================ MEMBER CARDS ======================== -->
+    <!-- ===================================================== -->
 
-    <!-- FOOTER -->
-    <!-- <footer>
-        <div class="git">
-            <a href="#"><img src="gráficos/git.svg" alt="git out"></a>
+    <div
+      class="member"
+      onclick="window.open('https://github.com/arhcoder', 'mywindow');"
+    >
+      <div class="photo">
+        <img
+          src="https://github.com/arhcoder.png"
+          alt="Foto de Alejandro Ramos"
+        />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/arhcoder">Alejandro Ramos</a></h2>
         </div>
-    </footer> -->
+        <div class="memberusername">
+          <h3><a href="https://github.com/arhcoder">@arhcoder</a></h3>
+        </div>
+        <p class="memberdesc">
+          Fundador del Club de Programación Creativa. Apasionado por el
+          desarrollo, la automatización y compartir conocimiento con la
+          comunidad.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/angelponcedev', 'mywindow');"
+    >
+      <div class="photo">
+        <img
+          src="https://github.com/angelponcedev.png"
+          alt="Foto de Angel Ponce"
+        />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/angelponcedev">Angel Ponce</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/angelponcedev">@angelponcedev</a></h3>
+        </div>
+        <p class="memberdesc">
+          Estudiante de ingeniería en computación, apasionado por la
+          automatización, el desarrollo de software y aprender cosas nuevas
+          todos los días.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/ZachenLeth', 'mywindow');"
+    >
+      <div class="photo">
+        <img src="https://github.com/ZachenLeth.png" alt="Foto de ZachenLeth" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/ZachenLeth">ZachenLeth</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/ZachenLeth">@ZachenLeth</a></h3>
+        </div>
+        <p class="memberdesc">
+          Desarrollador backend y entusiasta del open source. Explorando nuevas
+          tecnologías y soluciones efectivas.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/brendaramirez2022', 'mywindow');"
+    >
+      <div class="photo">
+        <img
+          src="https://github.com/brendaramirez2022.png"
+          alt="Foto de Brenda Ramirez"
+        />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2>
+            <a href="https://github.com/brendaramirez2022">Brenda Ramirez</a>
+          </h2>
+        </div>
+        <div class="memberusername">
+          <h3>
+            <a href="https://github.com/brendaramirez2022">@brendaramirez2022</a>
+          </h3>
+        </div>
+        <p class="memberdesc">
+          Creativa, curiosa y dedicada a aprender sobre front-end y diseño UX.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/DiegoGHx', 'mywindow');"
+    >
+      <div class="photo">
+        <img src="https://github.com/DiegoGHx.png" alt="Foto de Diego García" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/DiegoGHx">Diego García</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/DiegoGHx">@DiegoGHx</a></h3>
+        </div>
+        <p class="memberdesc">
+          Entusiasta del desarrollo de videojuegos y la programación creativa.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/Miguel281298', 'mywindow');"
+    >
+      <div class="photo">
+        <img
+          src="https://github.com/Miguel281298.png"
+          alt="Foto de Miguel Vázquez"
+        />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/Miguel281298">Miguel Vázquez</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/Miguel281298">@Miguel281298</a></h3>
+        </div>
+        <p class="memberdesc">
+          Apasionado por las soluciones prácticas mediante la tecnología y la
+          colaboración en equipo.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/baam160804', 'mywindow');"
+    >
+      <div class="photo">
+        <img
+          src="https://github.com/baam160804.png"
+          alt="Foto de Fernanda Álvarez"
+        />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/baam160804">Fernanda Álvarez</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/baam160804">@baam160804</a></h3>
+        </div>
+        <p class="memberdesc">
+          Creativa, fan del diseño digital y de crear interfaces intuitivas.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="member"
+      onclick="window.open('https://github.com/ensecode', 'mywindow');"
+    >
+      <div class="photo">
+        <img src="https://github.com/ensecode.png" alt="Foto de Enscode" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/ensecode">Enscode</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/ensecode">@ensecode</a></h3>
+        </div>
+        <p class="memberdesc">
+          Apasionado del desarrollo web y de compartir conocimiento con la
+          comunidad dev.
+        </p>
+      </div>
+    </div>
+    <div class="member" onclick="window.open('https://github.com/TU_USUARIO', 'mywindow');">
+      <div class="photo">
+        <img src="https://github.com/HABIDRC.png" alt="Foto de HABIDRC" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/HABIDRC">Habid Rodríguez</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/HABIDRC">@HABIDRC</a></h3>
+        </div>
+        <p class="memberdesc">
+          Hola ;D
+        </p>
+      </div>
+    </div>
+
+    <div class="member" onclick="window.open('https://github.com/BrandonHerrera07', 'mywindow');">
+      <div class="photo">
+        <img src="https://github.com/BrandonHerrera07.png" alt="Foto de Brandon Herrera" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/BrandonHerrera07">Brandon Herrera</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/BrandonHerrera07">@BrandonHerrera07</a></h3>
+        </div>
+        <p class="memberdesc">
+          Estudiante de la Ingeniería de Computación Inteligente, estoy cursando el 1er semestre y solo sé PSeInt.
+        </p>
+      </div>
+    </div>
+
+    <div class="member" onclick="window.open('https://github.com/AxelBelinC', 'mywindow');">
+      <div class="photo">
+        <img src="https://github.com/AxelBelinC.png" alt="Foto de Axel" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/AxelBelinC">Axel</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/AxelBelinC">@AxelBelinC</a></h3>
+        </div>
+        <p class="memberdesc">
+          Estudiante de Computación Inteligente en la UAA
+        </p>
+      </div>
+    </div>
+    <!-- ============= ZONA PARA QUE LOS ALUMNOS AGREGUEN SUS CARDS ============= -->
+
+    <div class="member" 
+    onclick="window.open('https://github.com/nemer-jpg', 'mywindow');">
+      <div class="photo">
+        <img src="https://github.com/pAslanq.png" alt="Foto de Pablo" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/pAslanq">Pablo</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/pAslanq">@pAslanq</a></h3>
+        </div>
+        <p class="memberdesc">
+          Hola espero haberte ayudado :D
+        </p>
+      </div>
+    </div>
+  </div>
+        <img src="https://avatars.githubusercontent.com/u/229249003?s=48&v=4" alt="Foto de victor" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/nemer-jpg">victor nemer</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/nemer-jpg">@nemer-jpg</a></h3>
+        </div>
+        <p class="memberdesc">
+          principiante en el diseño y creacion de paginas web,
+        </p>
+      </div>
+    </div>
+
+    <div class="member" onclick="window.open('https://github.com/Emilianox-creator', 'mywindow');">
+      <div class="photo">
+        <img src="https://github.com/Emilianox-creator.png" alt="Foto de TU_NOMBRE" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/Emilianox-creator">Emiliano Loera</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/Emilianox-creator">@Emilianox-creator</a></h3>
+        </div>
+        <p class="memberdesc">
+          Estudiante interesado en front-end, back-end, analisis de datos, AI y
+          más. Siempre buscando aprender y crecer en el mundo de la programación.
+        </p>
+      </div>
+    </div>
+
+    <div class="member" onclick="window.open('https://github.com/Carlo-Morales', 'mywindow');">
+      <div class="photo">
+
+        <img src="https://github.com/juanjose0120.png" alt="Foto de TU_NOMBRE" />
+      </div>
+      <div class="info">
+        <div class="membername">
+          <h2><a href="https://github.com/TU_USUARIO">Juan Vázquez</a></h2>
+        </div>
+        <div class="memberusername">
+          <h3><a href="https://github.com/TU_USUARIO">@juanjose0120</a></h3>
+        </div>
+        <p class="memberdesc">
+          Estudiante  interesado en aprender todo lo que pueda relacionado con programacion y tecnologia.
+        </p>
+    </div>
+  </div>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="git">
+      <a href="#"><img src="gráficos/git.svg" alt="git out" /></a>
+    </div>
+  </footer>
 </body>
+
 </html>
