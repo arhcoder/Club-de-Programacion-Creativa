@@ -1,0 +1,280 @@
+# +----------------------------------------------------------------------------+
+# | CARDUI TECH v1.0.0
+# +----------------------------------------------------------------------------+
+# | Copyright (c) 2026 - 2026, CARDUITECH.COM (www.carduitech.com)
+# | Vanessa Reteguín <vanessa@reteguin.com>
+# | Released under the MIT license
+# | www.carduitech.com/license/
+# +----------------------------------------------------------------------------+
+# | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
+# | First release: February 14th, 2026
+# | Last update..: February 16th, 2026
+# | WhatIs.......: 1-Minute exercises - Main
+# +----------------------------------------------------------------------------++
+# ------------------------- Instructions -----------------------
+
+# ------------ Resources / Documentation involved -------------
+
+
+# ------------------------- Libraries -------------------------
+import random
+
+# -------------------------- Imports --------------------------
+
+
+# ------------------------- Functions -------------------------
+
+
+# ------------------------- Variables -------------------------
+
+# --------------------------- Code ----------------------------
+"""
+# 1.01: Haz que la oración “Hello world” se imprima en la consola
+print("Hello world")
+"""
+
+# 1.02: Agrega un comentario multi-línea en al inicio del archivo de tu código en el que indiques tu nombre, el propósito de tu programa, etc.
+# Opción #1
+# +----------------------------------------------------------------------------+
+# | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
+# | First release: February 14th, 2026
+# | Last update..: February 14th, 2026
+# | WhatIs.......: 1-Minute exercises - Main
+# +----------------------------------------------------------------------------++
+
+# Opción #2
+"""
++----------------------------------------------------------------------------+
+| Author.......: Vanessa Reteguín <vanessa@reteguin.com>
+| First release: February 14th, 2026
+| Last update..: February 14th, 2026
+| WhatIs.......: 1-Minute exercises - Main
++----------------------------------------------------------------------------++
+"""
+
+"""
+# 1.03: Agrega un comentario de una sola línea en donde expliques que pasó el ejercicio 1
+print("Hello world") # Output básico para comprobar que el lenguaje corre correctamente
+"""
+
+"""
+# 1.04: Agrega un “To do” en el que indiques que debes terminar estos ejercicios
+# TODO: Completar todos los ejercicios de 1 minuto en python
+"""
+
+"""
+# 1.05: Vuelve a imprimir la oración “Hello world”. En esta ocasión, hazlo en dos
+# sentencias de print, una con salto de línea y otra sin salto.
+print("Hello ", end='')
+print("world")
+"""
+
+"""
+# 1.06: Solicita al usuario que ingrese su nombre. Imprime una respuesta con base en
+# la respuesta del usuario.
+name = input("Ingresa tu nombre ")
+print(f"Que la fuerza te acompañe, {name}")
+"""
+
+"""
+# 1.07: Solicita al usuario que ingrese su edad, luego evalúa si es mayor o menor de
+# edad. Imprime el resultado.
+age = int(input("Ingresa tu edad: "))
+if age < 18:
+    print("Eres menor de edad")
+else:
+    print("Eres mayor de edad")
+"""
+
+"""
+# 2.04: Imprime en consola qué tipo de variable son las creadas en los ejercicios
+# 2.01, 2.02 y 2.03
+myname = 'Jyn Erso'
+age = 25
+human = True
+
+print(f"myname: {type(myname)}")
+print(f"age: {type(age)}")
+print(f"human: {type(human)}")
+"""
+
+"""
+# 2.05: Piensa en un producto que compres regularmente. Declara una variable con
+# el nombre del producto y su precio.
+chocolate = 22.00
+"""
+
+"""
+# 2.06: Evalúa e imprime si es posible comprar este producto con $100.00 MXN
+chocolate = 22.00
+if chocolate <= 100:
+	print("Sí me alcanza")
+else:
+	print("No me alcanza")
+"""
+
+"""
+# 2.07: Declara tu edad en una variable. Concatena esa variable dentro de una
+# cadena con una oración relacionada a tu edad. Imprime esa cadena.
+age = 21
+print(f"{age} en este planeta y aún no has visto StarWars?")
+"""
+
+"""
+# 2.08: Declara un número complejo. Imprime el número, sólo su parte real y
+# sólo su parte imaginaria.
+num = 4.2+8j # opción #1
+num = complex(4.2, 8) # opción 21
+
+print(f"complex number: {num}, real: {num.real}, imaginary: {num.imag}")
+"""
+
+"""
+# 2.09: Declara una tupla con tu nombre como elemento en la primera posición
+# y tu apellido en la segunda.
+me = ('Padme', 'Amidala')
+"""
+
+"""
+# 2.10: De la tupla del ejercicio 15, intenta modificarla para que tu nombre
+# ahora sea Bulbasaur. ¿Qué error marca y por qué?
+me = ('Padme', 'Amidala')
+me[0] = 'Bulbasaur'
+print(me)
+"""
+
+"""
+# 2.11: Declara un rango entre 5 y 20 que sólo muestre los números impares.
+nums = range(5, 20, 2)
+for i in nums:
+    print(i)
+"""
+
+"""
+# 2.12: Del rango del ejercicio 2.11, itera sobre el rango e imprime en
+# cada línea un asterisco (*) de acuerdo al número por el que se está
+# iterando actualmente y el número.
+nums = range(5, 20, 2)
+for i in nums:
+    for j in range(0, i):
+        print('*', end='')
+    print(f" {i}")
+"""
+
+"""
+# 3.01: Crea una lista de 5 países
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia']
+"""
+
+"""
+# 3.02: Imprime la lista creada en el ejercicio 3.01
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia']
+print(countries)
+"""
+
+"""
+# 3.03: Itera sobre cada elemento de la lista
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia']
+for i in countries:
+	print(i)
+"""
+
+"""
+# 3.04: Agrega 2 países nuevos al final de la lista.
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia']
+
+countries.append('Argentina')
+countries.append('Uganda')
+# countries.extend(['Argentina', 'Uganda']) # Opción 2
+
+print(countries)
+"""
+
+"""
+# 3.05: Agrega 2 países; el primero en la posición 3 y el segundo en la 7
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+countries.insert(3, 'Vietnam')
+countries.insert(7, 'Alemania')
+
+print(countries)
+"""
+
+"""
+# 3.06: Agrega tu país de origen al principio de la lista o si ya lo
+# habías agregado, haz que sea el primer elemento de la lista
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+countries.insert(0, 'México')
+
+print(countries)
+"""
+
+"""
+# 3.07: Agrega un lugar imaginario o ficticio al final de la lista
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+countries.append('Narnia')
+
+print(countries)
+"""
+
+"""
+# 3.08: Imprime el tamaño de la lista
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda', 'Narnia']
+print(len(countries))
+"""
+
+"""
+# 3.09: Calcula cuál sería la posición justo a la mitad de la lista. ¿Es
+# un número par o impar y por qué? Crea una condición que nos permita
+# identificar ambos casos
+
+# Opción 1
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda', 'Narnia']
+mid_size = int(len(countries) / 2)
+print(countries[mid_size])
+
+# Opción 2
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda', 'Narnia']
+mid_element = 0
+if (len(countries) % 2) == 0:
+    mid_element = int(len(countries) / 2)
+else:
+    mid_element = int((len(countries) - 1) / 2)
+
+print(countries[mid_element])
+"""
+
+"""
+# 3.10: Agrega un lugar ficticio en la posición que corresponde a la mitad de la lista
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda', 'Narnia']
+mid_size = int(len(countries) / 2)
+countries.insert(mid_size, 'Hogwarts')
+
+print(countries)
+"""
+
+"""
+# 3.11: Elimina todos los lugares ficticios. Muestra al menos 1 de los lugares ficticios que eliminaste
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Hogwarts', 'Australia', 'Argentina', 'Uganda', 'Narnia']
+countries.remove('Narnia')
+removed = countries.pop(4)
+print(removed)
+"""
+
+"""
+# 3.12: Muestra todos los elementos excepto las primeras tres posiciones
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+print(countries[3:])
+"""
+
+"""
+# 3.13: Muestra todos los elementos excepto las últimas dos posicionesnda']
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+print(countries[:-2])
+"""
+
+"""
+# 3.14: Muestra todos los elementos excepto las primeras dos y las últimas
+# tres posiciones
+countries = ['Dinamarca', 'Zimbabue', 'Japón', 'Peru', 'Australia', 'Argentina', 'Uganda']
+print(countries[2:-3])
+"""
