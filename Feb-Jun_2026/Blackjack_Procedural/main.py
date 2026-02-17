@@ -9,7 +9,7 @@
 # | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
 # | First release: January 23rd, 2022
 # | Last update..: February 8th, 2026
-# | WhatIs.......: Blackjack Game - Main
+# | WhatIs.......: Blackjack Game Procedural - Main
 # +----------------------------------------------------------------------------++
 # ------------------------- Instructions -----------------------
 # TODO:
