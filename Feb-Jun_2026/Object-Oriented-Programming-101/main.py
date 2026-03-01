@@ -18,7 +18,7 @@ from IcePop_class import IcePop
 
 # -------------------------- Objects --------------------------
 PerryThePistachio = IceCream('Pistachio', 45.00,2)
-MangoTango = IceCream('Mango', 37.00, 2,)
+MangoTango = IceCream('Mango', 37.00, 2)
 MarvelousMint = IceCream('Mint chocolate chip', 25.00,1)
 
 PoppyBerryMix = IcePop('BerryMix', 32.00)
