@@ -8,7 +8,7 @@
 # +----------------------------------------------------------------------------+
 # | Author.......: Vanessa Reteguín <vanessa@reteguin.com>
 # | First release: March 11th, 2026
-# | Last update..: March 16th, 2026
+# | Last update..: March 23rd, 2026
 # | WhatIs.......: Dog API (API connections exercise)  - Main
 # +----------------------------------------------------------------------------++
 
@@ -21,7 +21,7 @@
 import requests
 
 # ------------------------- Variables -------------------------
-DogAPI_endpoint = "https://dogapi.dog/api/v2/facts"
+DogAPI_endpoint = "https://dogapi.dog/api/v2/facts/"
 
 parameters = {
      "limit": "3"
@@ -38,13 +38,14 @@ print(response.status_code)
 
 # Get headers
 print(response.headers)
+print(response.headers['content-type'])
 
 # Get response encoding
-print(response.headers)
-# print(response.headers['content-type'])
+print(response.encoding)
 
 # Get response plain text
 print(response.text)
 
 # Get the actual data
-print(response.json())
+data = response.json()
+print(data['data'][0]['attributes']['body']) # example
